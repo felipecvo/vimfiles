@@ -70,7 +70,7 @@
    "set statusline+=\ %m%r%h%w%q
 
     if filereadable(expand("~/.vim/plugin/rails.vim"))
-	set statusline+=\ %{rails#statusline(1)}      " rails.vim
+      set statusline+=\ %{rails#statusline(1)}      " rails.vim
     endif
 
     if filereadable(expand("~/.vim/plugin/fugitive.vim"))
@@ -78,7 +78,7 @@
     endif
 
     if filereadable(expand("~/.vim/plugin/capslock.vim"))
-	set statusline+=\ %{capslockstatusline()}      " capslock.vim
+      set statusline+=\ %{capslockstatusline()}      " capslock.vim
     endif
 
     if filereadable(expand("~/.vim/plugin/vimbuddy.vim"))
@@ -97,6 +97,21 @@
 " }
 
 " Plugin Settings {
+  " Surround {{{
+  " via: http://whynotwiki.com/Vim
+  " via: https://github.com/skwp/dotfiles/blob/master/vim/plugin/settings/surround.vim
+  " Ruby
+  " Use v or # to get a variable interpolation (inside of a string)}
+  " ysiw# Wrap the token under the cursor in #{}
+  " v...s# Wrap the selection in #{}
+          au Filetype ruby let g:surround_113 = "#{\r}" " v
+          au Filetype ruby let g:surround_35 = "#{\r}" " #
+
+  " Select text in an ERb file with visual mode and then press s- or s=
+  " Or yss- to do entire line.
+          au Filetype erb let g:surround_45 = "<% \r %>" " -
+          au Filetype erb let g:surround_61 = "<%= \r %>" " =
+  " }}}
 " }
 
 " Mappings {
@@ -104,6 +119,7 @@
    map <D-1> :NERDTreeToggle<RETURN>
    map <D-2> :bp<RETURN>
    map <D-3> :bn<RETURN>
+   imap <Tab> <C-P>
 " }
 
 " Autocommands {

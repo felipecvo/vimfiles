@@ -8,7 +8,11 @@ submodules = [
   "https://github.com/tpope/vim-rails.git",
   "https://github.com/tpope/vim-unimpaired.git",
   "https://github.com/vim-scripts/Puppet-Syntax-Highlighting",
-  "https://github.com/scrooloose/nerdtree.git"
+  "https://github.com/scrooloose/nerdcommenter.git",
+  "https://github.com/scrooloose/nerdtree.git",
+  "https://github.com/Lokaltog/vim-powerline.git",
+  "https://github.com/tpope/vim-surround.git",
+  "https://github.com/Raimondi/delimitMate.git",
 ]
 
 submodules.each do |bundle|
