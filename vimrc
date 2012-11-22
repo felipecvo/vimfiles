@@ -119,7 +119,7 @@
    map <D-1> :NERDTreeToggle<RETURN>
    map <D-2> :bp<RETURN>
    map <D-3> :bn<RETURN>
-   imap <Tab> <C-P>
+"   imap <Tab> <C-P>
 " }
 
 " Autocommands {
