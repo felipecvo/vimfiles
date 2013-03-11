@@ -16,6 +16,7 @@ submodules = [
   "https://github.com/vim-scripts/HTML-AutoCloseTag.git",
   "https://github.com/mileszs/ack.vim.git",
   "https://github.com/msanders/snipmate.vim.git",
+  "https://github.com/mattn/zencoding-vim.git",
 ]
 
 submodules.each do |bundle|
