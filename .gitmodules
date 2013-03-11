@@ -49,3 +49,6 @@
 [submodule "bundle/vim4rally"]
 	path = bundle/vim4rally
 	url = https://github.com/davidpthomas/vim4rally.git
+[submodule "bundle/zencoding"]
+	path = bundle/zencoding
+	url = https://github.com/mattn/zencoding-vim.git
