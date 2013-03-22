@@ -52,3 +52,6 @@
 [submodule "bundle/zencoding"]
 	path = bundle/zencoding
 	url = https://github.com/mattn/zencoding-vim.git
+[submodule "bundle/distraction-free-writing"]
+	path = bundle/distraction-free-writing
+	url = https://github.com/laktek/distraction-free-writing-vim.git
