@@ -19,14 +19,15 @@ submodules = [
   "https://github.com/mattn/zencoding-vim.git",
   "https://github.com/laktek/distraction-free-writing-vim.git",
   "https://github.com/godlygeek/tabular.git",
+  #"https://github.com/wincent/Command-T.git",
 ]
 
 submodules.each do |bundle|
   fname = File.basename(bundle, '.*')
   name = fname.gsub(/^vim[-_]|[-_.]vim$/,'')
   if File.exist? "bundle/#{name}"
-    #`cd bundle/#{name} && git pull`
-    #message = "Updating #{fname} bundle submodule"
+    `cd bundle/#{name} && git pull`
+    message = "Updating #{fname} bundle submodule"
   else
     `git submodule add #{bundle} bundle/#{name}`
     message = "Install #{fname} bundle as a submodule"
