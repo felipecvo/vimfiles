@@ -23,6 +23,7 @@ submodules = [
   "https://github.com/vim-scripts/nginx.vim",
   "https://github.com/slim-template/vim-slim.git",
   "https://github.com/editorconfig/editorconfig-vim.git",
+  "https://github.com/caglartoklu/ftcolor.vim.git",
   "https://github.com/kchmck/vim-coffee-script.git"
   #"https://github.com/wincent/Command-T.git",
 ]
