@@ -133,3 +133,4 @@
 set completeopt=menu,preview,longest
 set nrformats=alpha,octal,hex
 
+autocmd FileType make setlocal noexpandtab
