@@ -79,3 +79,6 @@
 [submodule "bundle/ftcolor"]
 	path = bundle/ftcolor
 	url = https://github.com/caglartoklu/ftcolor.vim.git
+[submodule "bundle/mango"]
+	path = bundle/mango
+	url = https://github.com/goatslacker/mango.vim
