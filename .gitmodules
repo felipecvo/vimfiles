@@ -76,3 +76,6 @@
 [submodule "bundle/editorconfig"]
 	path = bundle/editorconfig
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "bundle/ftcolor"]
+	path = bundle/ftcolor
+	url = https://github.com/caglartoklu/ftcolor.vim.git
