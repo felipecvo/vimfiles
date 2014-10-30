@@ -139,6 +139,7 @@
 " Plugins conf {
    " Command-T configuration
    let g:CommandTMaxHeight=20
+   let g:ftcolor_plugin_enabled = 0
 " }
 
 set completeopt=menu,preview,longest
