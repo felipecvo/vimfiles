@@ -31,7 +31,7 @@
 " Vim UI {
     set title
     set number
-    set cursorline
+    set nocursorline
     set nocursorcolumn
     set nostartofline
     set incsearch
