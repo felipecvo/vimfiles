@@ -82,3 +82,6 @@
 [submodule "bundle/mango"]
 	path = bundle/mango
 	url = https://github.com/goatslacker/mango.vim
+[submodule "bundle/yankstack"]
+	path = bundle/yankstack
+	url = https://github.com/maxbrunsfeld/vim-yankstack.git
