@@ -85,3 +85,6 @@
 [submodule "bundle/yankstack"]
 	path = bundle/yankstack
 	url = https://github.com/maxbrunsfeld/vim-yankstack.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
